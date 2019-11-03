@@ -1,0 +1,150 @@
+body {
+    color: purple;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F3F4 ; 
+	cursor:pointer;
+}
+
+div.top_tab{
+	width: 100%;
+	background-color: gray;
+	padding: 0.2ex;
+	color:white;
+	margin-bottom: 2ex;
+}
+
+div.top_tab h1{
+	font-size: 3ex;
+	text-align: center;
+}
+
+div.main{
+	display: flex;
+}
+
+div.left{
+	width: 20%;
+	margin-left: 5%;
+	border-radius: 2ex;
+	border: 1px solid #979A9A;
+	background-color: #FDFEFE  ;
+}
+
+ul.list{
+	list-style: none;
+	color: #1B2631 ;
+}
+
+ul.list h1{
+	font-size: 3ex;
+}
+ul.list h2{
+	font-size: 2ex;
+}
+
+ul.list h3{
+	margin-left: 2ex;
+	font-size: 1.5ex;
+	text-align: center;
+	width:50%;
+	border: 1px solid #979A9A;
+	padding: 0.5ex;
+	border-radius: 0.5ex;
+}
+
+
+ul.list h3:focus{
+	background-color: #F8C471;
+	color: white;
+}
+
+div.right{
+	width: 65%;
+	margin-left: 5%;
+	border-radius: 2ex;
+	border: 1px solid #979A9A;
+	background-color: #FEF9E7;
+}
+
+div.tab{
+	padding: 1ex;
+}
+
+div.tab p{
+	color: black;
+	padding: 1ex 1ex 1ex 3ex;
+	border-bottom: 1px solid #979A9A;
+	font-size: 2ex;
+}
+
+div.tab span{
+	color: black;
+	padding: 1ex 1ex 1ex 4ex;
+	font-size: 2ex;
+}
+
+#uploadFile{
+	display: none;
+}
+
+#upButton{
+	display: none;
+	margin-left: 5ex;
+	color: white;
+	font-size: 1.7ex;
+	width: 8ex;
+	height: 4ex;
+	border-radius: 1ex;
+	background-color: #85C1E9;
+}
+
+#upButton:hover{
+	background-color: #AED6F1 ;
+}
+
+#fileP{
+	display: none;
+	width: 90%;
+	height: 67ex;
+	overflow-y:auto; 
+	overflow-x:auto;
+	margin:2ex 0 2ex 4%;
+	font-size: 1.4ex;
+	border-radius: 1ex;
+	padding: 1ex;
+	border: 2px solid #AAAAAA;
+	background-color: #F8F9F9 ;
+}
+
+#strat{
+	width: 80%;
+	height: 25%;
+	padding: 1.5ex;
+	background-color: #85C1E9;
+	color: #FDFEFE;
+	margin-left: 10%;
+	border-radius: 1ex;
+	display: none;
+}
+
+#strat:active{
+	background-color: #3498DB;
+}
+
+#result{
+	display: none;
+	width: 90%;
+	text-align: center;
+	margin-left: 4%;
+	font-size: 1.4ex;
+	border-radius: 1ex;
+	background-color: #F8F9F9 ;
+}
+
+address{
+	margin-top: 30px;
+	text-align: center;
+	color: #1B2631 ;
+}
+

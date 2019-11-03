@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<html>
+<head>
+
+<link href="../css/index.css" rel="stylesheet">
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/index.js"></script>
+  <title>雷达项目</title>
+</head>
+
+<body>
+<div class="top_tab">
+	<h1>雷达项目演示</h1>
+</div>
+<div class="main">
+	<div class="left">
+		<ul class="list">
+			  <li><h1>1.雷达探测数据</h1> </li>
+			  <li><h2>1.1有监督学习</h2></li>
+			  <li><h3 id="h1">决策树</h3></li>
+			  <li><h3 id="h2">xgboost</h3></li>
+			  <li><h3 id="h3">随机森林</h3></li>
+			  <li><h2>1.2无监督学习</h2></li>
+			  <li><h3 id="h4">FCM</h3></li>
+			  <li><h3 id="h5">DBSCAN</h3></li>
+			  <li><h3 id="h6">K-means</h3></li>
+			  <li><h2>1.3小样本环境</h2></li>
+			  <li><h3 id="h7">样本扩充</h3></li>
+			  <li><h3 id="h8">信号分选</h3></li>
+			  <li><h1>2.雷达通信数据</h1></li>
+			  <li><h3 id="h9">特征提取</h3></li>
+			  <li><h3 id="h10">信号分选</h3></li>
+		</ul>
+	</div>
+	<div class="right">
+		<div class="tab">
+			<p>实验说明</p>
+			<span id="test"></span>
+			<p>输入数据</p>
+			<input type="file" id="uploadFile" name="upload" /> 
+			<button id="upButton">上传</button>
+			<div id="fileP">
+			</div>
+			<button id="strat">开始执行</button>
+			<p>实验过程</p>
+			<p>实验结果</p>
+			<div id="result">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 簽名和日期 -->
+
+<address>2019年10月29日制作</address>
+
+</body>
+</html>
